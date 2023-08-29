@@ -1,0 +1,162 @@
+[
+  {
+    "path": "/",
+    "score": 0.91
+  },
+  {
+    "path": "/accessibility",
+    "score": 0.95
+  },
+  {
+    "path": "/colorado-open-records-act-cora",
+    "score": 0.98
+  },
+  {
+    "path": "/contact-about",
+    "score": 0.97
+  },
+  {
+    "path": "/departments/federal-state-hierarchy",
+    "score": 0.95
+  },
+  {
+    "path": "/departments/leadership",
+    "score": 0.96
+  },
+  {
+    "path": "/departments/strategic-planning",
+    "score": 0.97
+  },
+  {
+    "path": "/dmva-employee-of-the-year",
+    "score": 0.95
+  },
+  {
+    "path": "/document-accessibility",
+    "score": 0.94
+  },
+  {
+    "path": "/documents",
+    "score": 0.95
+  },
+  {
+    "path": "/es",
+    "score": 0.95
+  },
+  {
+    "path": "/es/node/10019",
+    "score": 0.98
+  },
+  {
+    "path": "/es/node/10086",
+    "score": 0.95
+  },
+  {
+    "path": "/es/node/10166",
+    "score": 0.98
+  },
+  {
+    "path": "/es/node/10231",
+    "score": 0.98
+  },
+  {
+    "path": "/es/node/10251",
+    "score": 0.98
+  },
+  {
+    "path": "/events/hud-vash-group-rm-105",
+    "score": 0.98
+  },
+  {
+    "path": "/events/medicare-mentors-room-113-1",
+    "score": 0.97
+  },
+  {
+    "path": "/events/va-smart-phone-rm-105",
+    "score": 0.95
+  },
+  {
+    "path": "/events/va-standdown",
+    "score": 0.98
+  },
+  {
+    "path": "/events/yoga-for-veterans",
+    "score": 0.98
+  },
+  {
+    "path": "/executive-directors-office",
+    "score": 0.9
+  },
+  {
+    "path": "/home",
+    "score": 0.95
+  },
+  {
+    "path": "/important-forms",
+    "score": 0.96
+  },
+  {
+    "path": "/important-forms/colorado-open-records-act-cora",
+    "score": 0.98
+  },
+  {
+    "path": "/leadership-0",
+    "score": 0.96
+  },
+  {
+    "path": "/linking-policy",
+    "score": 0.97
+  },
+  {
+    "path": "/links",
+    "score": 0.98
+  },
+  {
+    "path": "/new-home",
+    "score": 0.93
+  },
+  {
+    "path": "/services",
+    "score": 0.97
+  },
+  {
+    "path": "/services-0",
+    "score": 0.97
+  },
+  {
+    "path": "/strategic-operations-organizational-development",
+    "score": 0.98
+  },
+  {
+    "path": "/test-blocks",
+    "score": 0.91
+  },
+  {
+    "path": "/tuition-assistance",
+    "score": 0.95
+  },
+  {
+    "path": "/veterans-memorial-cemetery-0",
+    "score": 0.97
+  },
+  {
+    "path": "/veterans/veterans-memorial-cemetery",
+    "score": 0.97
+  },
+  {
+    "path": "/virtual-suggestion-box",
+    "score": 0.93
+  },
+  {
+    "path": "/web-accessibility-contact-form",
+    "score": 0.95
+  },
+  {
+    "path": "/webmail",
+    "score": 0.98
+  },
+  {
+    "path": "/western-region-one-source",
+    "score": 0.9
+  }
+]

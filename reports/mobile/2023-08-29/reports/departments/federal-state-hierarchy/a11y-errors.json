@@ -1,0 +1,287 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-114-H2",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H2",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h2",
+            "boundingRect": {
+              "top": 3792,
+              "bottom": 3820,
+              "left": 24,
+              "right": 108,
+              "width": 84,
+              "height": 28
+            },
+            "snippet": "<h2>",
+            "nodeLabel": "Contact",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.55 (foreground color: #000000, background color: #152f51, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-115-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column",
+                  "boundingRect": {
+                    "top": 3788,
+                    "bottom": 3917,
+                    "left": 15,
+                    "right": 382,
+                    "width": 367,
+                    "height": 129
+                  },
+                  "snippet": "<div class=\"paragraph__column\">",
+                  "nodeLabel": "Contact\n\nDepartment of Military & Veterans Affairs\n6848 South Revere Parkway\nCe…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-116-P",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > p",
+            "boundingRect": {
+              "top": 3824,
+              "bottom": 3896,
+              "left": 24,
+              "right": 373,
+              "width": 349,
+              "height": 72
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Department of Military & Veterans Affairs\n6848 South Revere Parkway\nCentennial,…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.55 (foreground color: #000000, background color: #152f51, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-115-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column",
+                  "boundingRect": {
+                    "top": 3788,
+                    "bottom": 3917,
+                    "left": 15,
+                    "right": 382,
+                    "width": 367,
+                    "height": 129
+                  },
+                  "snippet": "<div class=\"paragraph__column\">",
+                  "nodeLabel": "Contact\n\nDepartment of Military & Veterans Affairs\n6848 South Revere Parkway\nCe…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-117-H2",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,H2",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h2",
+            "boundingRect": {
+              "top": 3936,
+              "bottom": 3964,
+              "left": 24,
+              "right": 157,
+              "width": 133,
+              "height": 28
+            },
+            "snippet": "<h2>",
+            "nodeLabel": "Accessibility",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.55 (foreground color: #000000, background color: #152f51, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-118-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column",
+                  "boundingRect": {
+                    "top": 3932,
+                    "bottom": 4049,
+                    "left": 15,
+                    "right": 382,
+                    "width": 367,
+                    "height": 117
+                  },
+                  "snippet": "<div class=\"paragraph__column\">",
+                  "nodeLabel": "Accessibility\n\nAccessibility Statement\n\nFile a Web Accessibility Complaint"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-72-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,P,0,A",
+            "selector": "div.paragraph__column > div.field > p > a",
+            "boundingRect": {
+              "top": 3970,
+              "bottom": 3989,
+              "left": 115,
+              "right": 282,
+              "width": 168,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://dmva.colorado.gov/accessibility\" target=\"_blank\">",
+            "nodeLabel": "Accessibility Statement",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.55 (foreground color: #000000, background color: #152f51, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-118-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column",
+                  "boundingRect": {
+                    "top": 3932,
+                    "bottom": 4049,
+                    "left": 15,
+                    "right": 382,
+                    "width": 367,
+                    "height": 117
+                  },
+                  "snippet": "<div class=\"paragraph__column\">",
+                  "nodeLabel": "Accessibility\n\nAccessibility Statement\n\nFile a Web Accessibility Complaint"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-73-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,P,0,A",
+            "selector": "div.paragraph__column > div.field > p > a",
+            "boundingRect": {
+              "top": 4006,
+              "bottom": 4025,
+              "left": 76,
+              "right": 321,
+              "width": 245,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://dmva.colorado.gov/web-accessibility-contact-form\" target=\"_blank\">",
+            "nodeLabel": "File a Web Accessibility Complaint",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.55 (foreground color: #000000, background color: #152f51, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-118-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column",
+                  "boundingRect": {
+                    "top": 3932,
+                    "bottom": 4049,
+                    "left": 15,
+                    "right": 382,
+                    "width": 367,
+                    "height": 117
+                  },
+                  "snippet": "<div class=\"paragraph__column\">",
+                  "nodeLabel": "Accessibility\n\nAccessibility Statement\n\nFile a Web Accessibility Complaint"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-119-H2",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,H2",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h2",
+            "boundingRect": {
+              "top": 4068,
+              "bottom": 4096,
+              "left": 24,
+              "right": 106,
+              "width": 82,
+              "height": 28
+            },
+            "snippet": "<h2>",
+            "nodeLabel": "Careers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.55 (foreground color: #000000, background color: #152f51, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-120-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,6,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV",
+                  "selector": "div.container > div.paragraph--type--bp-columns__3col > div.paragraph__card > div.paragraph__column",
+                  "boundingRect": {
+                    "top": 4064,
+                    "bottom": 4169,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 106
+                  },
+                  "snippet": "<div class=\"paragraph__column\">",
+                  "nodeLabel": "Careers\n\nOpen Positions"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

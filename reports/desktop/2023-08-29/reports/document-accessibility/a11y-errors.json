@@ -1,0 +1,189 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-89-H4",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,3,SECTION,4,SECTION,3,DIV,3,DIV,0,H4",
+            "selector": "section > div.flex-container > div#unacceptable > h4",
+            "boundingRect": {
+              "top": 2934,
+              "bottom": 2964,
+              "left": 1036,
+              "right": 1304,
+              "width": 268,
+              "height": 30
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Unacceptable (3:1)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #000000, background color: #0050c9, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-90-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,3,SECTION,4,SECTION,3,DIV,3,DIV",
+                  "selector": "section > section > div.flex-container > div#unacceptable",
+                  "boundingRect": {
+                    "top": 2922,
+                    "bottom": 3154,
+                    "left": 1020,
+                    "right": 1320,
+                    "width": 300,
+                    "height": 232
+                  },
+                  "snippet": "<div id=\"unacceptable\">",
+                  "nodeLabel": "Unacceptable (3:1)\n\nLorem ipsum dolor sit, amet consectetur adipisicing elit. R…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-91-P",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,3,SECTION,4,SECTION,3,DIV,3,DIV,2,P",
+            "selector": "section > div.flex-container > div#unacceptable > p",
+            "boundingRect": {
+              "top": 2998,
+              "bottom": 3142,
+              "left": 1036,
+              "right": 1304,
+              "width": 268,
+              "height": 144
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis at optio, …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #000000, background color: #0050c9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-90-DIV",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,3,SECTION,4,SECTION,3,DIV,3,DIV",
+                  "selector": "section > section > div.flex-container > div#unacceptable",
+                  "boundingRect": {
+                    "top": 2922,
+                    "bottom": 3154,
+                    "left": 1020,
+                    "right": 1320,
+                    "width": 300,
+                    "height": 232
+                  },
+                  "snippet": "<div id=\"unacceptable\">",
+                  "nodeLabel": "Unacceptable (3:1)\n\nLorem ipsum dolor sit, amet consectetur adipisicing elit. R…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-92-H5",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,3,SECTION,5,SECTION,4,DIV,1,DIV,0,H5",
+            "selector": "section > div.flex-container > div.incorrect > h5",
+            "boundingRect": {
+              "top": 3625,
+              "bottom": 3659,
+              "left": 689,
+              "right": 1321,
+              "width": 632,
+              "height": 35
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Incorrect:",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-93-H3",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,3,SECTION,5,SECTION,4,DIV,1,DIV,1,DIV,1,H3",
+            "selector": "div.flex-container > div.incorrect > div > h3",
+            "boundingRect": {
+              "top": 3751,
+              "bottom": 3787,
+              "left": 705,
+              "right": 1305,
+              "width": 600,
+              "height": 36
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Section 1 Heading",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
